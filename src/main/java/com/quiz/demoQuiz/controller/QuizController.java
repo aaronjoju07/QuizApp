@@ -12,6 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("quiz")
+@CrossOrigin("http://localhost:3000/")
 public class QuizController {
     @Autowired
     QuizService quizService;

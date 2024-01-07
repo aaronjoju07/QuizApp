@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 @RestController
 @RequestMapping("question")
+@CrossOrigin("http://localhost:3000/")
 public class QuestionController {
     @Autowired
     QuestionSrevice questionSrevice;
